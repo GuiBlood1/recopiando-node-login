@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Página inicial</title>
+
+        <style>
+            img{
+                width:20%;
+            }
+            body{
+                background-color:antiquewhite;
+            }
+            .login{
+                padding-top:20px;
+                text-align:center;
+                margin:auto;
+                width:500px;
+                border:2px solid black;
+                border-radius:20px;
+                box-shadow: 1px 1px 10px black;
+            }
+            button{
+                padding:5px 10px 5px 10px;
+                background-color:burlywood;
+                transition:3s;
+                border:none;
+            }
+            button:hover{
+                background-color:crimson;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="login-form">
+            <div class="login">
+
+                <div class="login-top">
+                    <img src="https://image.flaticon.com/icons/png/512/17/17004.png" alt="login">
+                    <h1>Bem-vindo ao site</h1>
+                    <p>"Seja alguém melhor"</p>
+                </div>
+
+                <div class="inputs">
+                    <label>Email </label>
+                    <input type="text" placeholder=" email"><br><br>
+                    <label>Senha </label>
+                    <input type="password" placeholder=" senha">
+                </div>
+
+                <div class="check">
+                    <label><input type="checkbox"> Quero ser lembrado</label>
+                </div>
+
+                <div class="botao">
+                    <button type="submit" onclick="">Login</button>
+                    <button type="button" onclick="window.location.href='https://3000-coral-marmot-qj64nwmr.ws-us03.gitpod.io/registro'">Registrar</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
